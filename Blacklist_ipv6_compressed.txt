@@ -1,5 +1,5 @@
 # Title: 4PDA Community ipv6 compressed blacklist
-# Last modified: 17 Nov 2026 11:17 UTC
+# Last modified: 18 Nov 2026 10:49 UTC
 # Expires: 1 day
 # Author: Schakal
 # Homepage: https://github.com/smi-falcon/4PDA-Community-Blacklist
