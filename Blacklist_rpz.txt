@@ -1,5 +1,5 @@
 ; Title: 4PDA Community rpz blacklist
-; Last modified: 19 Nov 2026 10:49 UTC
+; Last modified: 20 Nov 2026 10:39 UTC
 ; Expires: 1 day
 ; Author: Schakal
 ; Homepage: https://github.com/smi-falcon/4PDA-Community-Blacklist
