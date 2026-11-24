@@ -1,5 +1,5 @@
 # Title: 4PDA Community privoxy blacklist
-# Last modified: 24 Nov 2026 11:57 UTC
+# Last modified: 24 Nov 2026 12:59 UTC
 # Expires: 1 day
 # Author: smi-falcon
 # Homepage: https://github.com/smi-falcon/4PDA-Community-Blacklist
