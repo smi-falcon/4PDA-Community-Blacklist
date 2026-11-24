@@ -9,42 +9,78 @@
 ## Ссылки
 
 ### Hosts
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_hosts.txt`
+
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_hosts.txt
+```
 
 ### Adblock/AdGuard
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_adblock.txt`
+
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_adblock.txt
+```
 
 ### FQDN
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_fqdn.txt`
+
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_fqdn.txt
+```
 
 ### Reduced FQDN
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_reduced_fqdn.txt`
+
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_reduced_fqdn.txt
+```
 
 ### DNSmasq
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_dnsmasq.txt`
+
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_dnsmasq.txt
+```
 
 ### Unbound
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_unbound.txt`
+
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_unbound.txt
+```
 
 ### RPZ
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_rpz.txt`
+
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_rpz.txt
+```
 
 ### Privoxy
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_privoxy.txt`
+
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_privoxy.txt
+```
 
 ### DualServer
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_dualserver.txt`
+
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_dualserver.txt
+```
 
 ### IPv6
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_ipv6.txt`
+
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_ipv6.txt
+```
 
 ### Compressed
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_compressed.txt`
+
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_compressed.txt
+```
 
 ### IPv6 Compressed
-`https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_ipv6_compressed.txt`
 
-## Структура проекта
+```
+https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_ipv6_compressed.txt
+```
+
+## Структура
 
 ```
 4PDA-Community-Blacklist/
@@ -52,6 +88,7 @@
 │   └── workflows/
 │       └── update-blacklist.yml
 ├── scripts/
+│   ├── build-hosts.py
 │   ├── add-header.js
 │   └── add-header-and-convert.py
 ├── Blacklist_adblock.txt
