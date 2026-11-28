@@ -64,11 +64,11 @@ def build_header(name, records, comment, desc):
     title = FORMATS[name]["title"]
     c = comment
     lines = [
-        f"{c} Title: 4PDA Community {title} blacklist",
+        f"{c} Title: Meta Gen {title} blacklist",
         f"{c} Last modified: {last_modified}",
         f"{c} Expires: 1 day",
         f"{c} Author: smi-falcon",
-        f"{c} Homepage: https://github.com/smi-falcon/4PDA-Community-Blacklist",
+        f"{c} Homepage: https://github.com/smi-falcon/Meta-Gen-Blacklist",
         f"{c} Records: {records}",
         "",
         f"{c} Converted from hosts format to {name}",
