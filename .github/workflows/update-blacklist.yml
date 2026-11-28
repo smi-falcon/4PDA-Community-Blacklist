@@ -27,7 +27,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install hostlist-compiler
-        run: npm install -g @adguard/hostlist-compiler@2.1.1
+        run: npm install -g @adguard/hostlist-compiler@3.0.0
 
       - name: Build merged hosts file from sources
         run: python3 scripts/build-hosts.py
