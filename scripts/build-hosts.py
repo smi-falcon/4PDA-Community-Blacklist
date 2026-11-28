@@ -130,7 +130,7 @@ def build_output(domains):
     )
     records = len(domains) + 2  # blocking domains + localhost entries
     lines = [
-        "!Title: 4PDA Community hosts blacklist",
+        "!Title: Meta Gen hosts blacklist",
         f"!Last modified: {last_modified}",
         "!Expires: 1 day",
         f"!Records: {records}",
