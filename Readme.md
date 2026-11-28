@@ -1,4 +1,4 @@
-# 4PDA Community Blacklist
+# Meta Gen Blacklist
 
 Ежедневно обновляемый чёрный список доменов рекламы и трекеров для блокировщиков рекламы в форматах Hosts, Adblock/AdGuard, DNSmasq, Unbound, RPZ, Privoxy, DualServer, FQDN, IPv6 и сжатых вариантах.
 
@@ -11,79 +11,79 @@
 ### Hosts
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_hosts.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_hosts.txt
 ```
 
 ### Adblock/AdGuard
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_adblock.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_adblock.txt
 ```
 
 ### FQDN
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_fqdn.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_fqdn.txt
 ```
 
 ### Reduced FQDN
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_reduced_fqdn.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_reduced_fqdn.txt
 ```
 
 ### DNSmasq
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_dnsmasq.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_dnsmasq.txt
 ```
 
 ### Unbound
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_unbound.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_unbound.txt
 ```
 
 ### RPZ
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_rpz.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_rpz.txt
 ```
 
 ### Privoxy
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_privoxy.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_privoxy.txt
 ```
 
 ### DualServer
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_dualserver.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_dualserver.txt
 ```
 
 ### IPv6
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_ipv6.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_ipv6.txt
 ```
 
 ### Compressed
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_compressed.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_compressed.txt
 ```
 
 ### IPv6 Compressed
 
 ```
-https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads/main/Blacklist_ipv6_compressed.txt
+https://raw.githubusercontent.com/smi-falcon/Meta-Gen-Blacklist/refs/heads/main/Blacklist_ipv6_compressed.txt
 ```
 
 ## Структура
 
 ```
-4PDA-Community-Blacklist/
+Meta-Gen-Blacklist/
 ├── .github/
 │   └── workflows/
 │       └── update-blacklist.yml
@@ -109,7 +109,7 @@ https://raw.githubusercontent.com/smi-falcon/4PDA-Community-Blacklist/refs/heads
 
 ## Инструменты
 
-- `@adguard/hostlist-compiler` v2.1.1
+- `@adguard/hostlist-compiler` v3.0.0
 - [Hosts-Conversions](https://github.com/ScriptTiger/Hosts-Conversions)
 
 ## Лицензия
